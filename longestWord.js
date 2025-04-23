@@ -17,7 +17,7 @@ const findLongestWord = (sentence) => {
       }
     }
   }
-  console.log(longestWord);
+  return longestWord;
 };
 
-findLongestWord("Hello there, I'm learningssss Javascripts.");
+console.log(findLongestWord("Hello there, I'm learning Javascripts."));
